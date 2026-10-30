@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="My Laptops">
+        <ul class="slds-p-around_small">
+            <template for:each={laptops} for:item="l"><li key={l.Id}>{l.Name}</li></template>
+        </ul>
+    </lightning-card>
+</template>
