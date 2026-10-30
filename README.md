@@ -39,7 +39,7 @@ evidence-scored build, entirely inside Agentforce Vibes (AFV) chat.
 ## Install into a Salesforce DX project
 
 ```bash
-git clone <this-repo> sf-spec-skills
+git clone https://github.com/mingxuanzhangsfdx/sf-spec-skills.git
 
 # a fresh project (or skip this and use your own)
 sf template generate project --name laptop-tracker --template standard
